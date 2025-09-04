@@ -72,9 +72,9 @@ WSGI_APPLICATION = "bakery_api.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "bakery_db",       # your DB name
-        "USER": "bakery_user",     # your DB user
-        "PASSWORD": "12345",       # your DB password
+        "NAME": "jafsa_bakes_backend",       # your DB name
+        "USER": "postgres",     # your DB user
+        "PASSWORD": "info@imc",       # your DB password
         "HOST": "127.0.0.1",       # localhost
         "PORT": "5432",            # default Postgres port
     }
