@@ -1,8 +1,20 @@
-venv/
+# Python
 __pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.log
+
+# Django
+db.sqlite3
+*.pot
 *.pyc
-*.pyo
-*.pyd
-*.sqlite3
-media/
-staticfiles/
+
+# Environments
+venv/
+.env
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+

@@ -13,7 +13,15 @@ SECRET_KEY = "change_me_to_a_long_random_string"
 # SECURITY WARNING: don’t run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["*","https://jafsabakes.in/","www.https://jafsabakes.in/"]
+
+
+
+CORS_ALLOWED_ORIGINS = [
+    "https://jafsabakes.in",
+    "https://www.jafsabakes.in",
+]
+
 
 # Installed apps
 INSTALLED_APPS = [
